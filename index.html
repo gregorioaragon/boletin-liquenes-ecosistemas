@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -17,15 +16,23 @@
         .volumen {
             display: inline-block;
             margin: 20px;
-            text            width: 200px;
+            width: 200px;
             height: auto;
             border: 1px solid #ccc;
             border-radius: 5px;
+            text-decoration: none; /* Elimina el subrayado de los enlaces */
+            color: black; /* Color del texto del enlace */
+        }
+        .volumen img {
+            width: 100%; /* La imagen ocupará el 100% del ancho del div */
+            height: auto;
+            display: block; /* La imagen se mostrará como un bloque */
         }
         .numero {
             font-weight: bold;
             margin-top: 10px;
             display: block;
+            padding: 10px;
         }
     </style>
 </head>
@@ -33,22 +40,17 @@
    
 <h2><strong>Boletín divulgativo - Líquenes y Ecosistemas</strong></h2>
 
+<div class="volumen-container">
+    <a href="volumenes/liquenesecosistemas00.pdf" class="volumen">
+        <img src="img/portada0.jpg" alt="Portada Nº 00">
+        <span class="numero">Nº 00</span>
+    </a>
     
-<div class="volumen">
-    volumenes/liquenesecosistemas00.pdf
-        img/portada0.jpg
+    <a href="volumenes/liquenesecosistemas01.pdf" class="volumen">
+        <img src="img/portada1.jpg" alt="Portada Nº 01">
+        <span class="numero">Nº 01</span>
     </a>
-    <span class="numero">Nº 00</span>
 </div>
 
-<div class="volumen">
-    volumenes/liquenesecosistemas01.pdf
-        img/portada1.jpg
-    </a>
-    <span class="numero">Nº 01</span>
-</div>
-
-    </div>
 </body>
 </html>
-
