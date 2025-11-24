@@ -2,18 +2,15 @@
  Boletín divulgativo - Líquenes y Ecosistemas
 
 ## Volúmenes disponibles
-
-
 <p align="center">
-  <a href="volumenesecosistemas00.pdf
-    <img src="img/portada0.jpg" alt="Portada Volumen 0" widthp>
-
-<p align="center">
+  volumenes/liquenesecosistemas00.pdf
+    <img src="img/portada0.jpg" alt="Portada Volumen 0" width="200p align="center">
   volumenes/liquenesecosistemas01.pdf
     img/portada1.jpg<br>
     <strong>Nº 01</strong>
   </a>
 </p>
+
 
 
 
